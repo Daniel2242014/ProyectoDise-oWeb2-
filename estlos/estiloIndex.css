@@ -1,0 +1,201 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body{
+  background: rgb(33, 33, 33);
+}
+
+nav{
+  width: 100%;
+  background: rgb(37, 37, 37);
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+nav ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav li{
+  display: inline-block;
+  margin: 12px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-family: "Open sans"
+}
+
+
+/*---------------------------------------------------------*/
+
+header{
+
+}
+
+.contenidoHeader{
+  overflow: hidden;
+}
+
+header img {
+  width: 100%;
+}
+
+header hgroup{
+  width: 60%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:60%;
+  text-align: center;
+  font-family: "Open sans"
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+h2{
+color:rgb(40, 40, 40);
+font-size: 23px;
+text-transform: uppercase;;
+letter-spacing: 9px;
+
+}
+
+/*--------------------------------------------------------*/
+
+.main{
+  background: rgb(34, 34, 34);
+}
+
+.main h3{
+  display: block;
+  margin-left: 40px;
+  font-size: 72px;
+  font-family: "Open sans";
+  color:rgb(255, 255, 255);
+  letter-spacing: 4px;
+}
+
+ .main > p{
+   display: block;
+   margin-left: 40px;
+   font-size: 18px;
+   font-family: "Open sans";
+   color:rgb(255, 255, 255);
+   letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+ }
+
+ /*-----------------------------------------------------*/
+
+  .main{
+    margin-bottom: 100px;
+  }
+ .tema{
+   width: 40%;
+   margin: 25px 5% 25px 5%;
+ }
+
+ .tema > img{
+   width: 100%;
+ }
+
+ .tema .contenido{
+   background: rgb(255, 255, 255);
+   color:rgb(47, 47, 47);
+   font-size: 16px;
+ }
+
+  .enlase{
+    width: 35%;
+    margin:auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .contenido a{
+    text-decoration: none;
+    color:rgb(26, 26, 26);
+    font-family: "Open sans";
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .enlase img{
+    display: block;
+
+  }
+
+ .enlase img{
+  display: block;
+   width: 25px;
+   height: 25px;
+   margin-left: 5px;
+ }
+
+.cuu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido h4{
+  display: block;
+  font-family: "Open Sans";
+  font-size: 27px;
+  color:rgb(60, 60, 60);
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 12px;
+}
+
+.contenido > p{
+  display: block;
+  width: 90%;
+  margin:auto;
+  font-family: "Open Sans";
+  font-size: 15px;
+  color:rgb(60, 60, 60);
+  letter-spacing: 0.7px;
+  line-height: 22px;
+}
+
+/*--------------------------------------------------*/
+
+footer{
+  background-color: rgb(255, 255, 255);
+}
+
+footer div{
+  padding: 40px 20px 20px 20px;
+}
+
+footer p{
+  line-height: 50px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color:rgb(60, 60, 60);
+  letter-spacing: 0.4px;
+}
