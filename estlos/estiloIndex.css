@@ -26,7 +26,7 @@ nav > ul{
   justify-content: flex-end;
 }
 
-.hijos{
+.hijos ul{
   width: 180px;
   margin-top: 10px;
   position: absolute;
@@ -35,32 +35,52 @@ nav > ul{
   justify-content: flex-start;
   align-items: flex-start;
   background-color: rgb(37, 37, 37);
+
 }
 
-.hijos li{
+
+
+.hijos div li:hover{
+ transform: translate(10px, 0px);
+}
+
+.hijos li div li{
   padding: 2px;
   width: 85%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-
+  transition: all 0.3s ease;
 }
 
-.hijos li a {
-
+.hijos:hover div{
+  display: block;
 }
+
+.hijos div{
+display: none;
+}
+
 
 .initit{
   width: 80px;
 }
 
+.apa{
+  width:145px;
+}
+.ene {
+  width: 130px;
+}
+
 nav li{
   width: 180px;
   display: inline-block;
-  margin-right: 20px;
   margin-top: 11px;
   margin-bottom: 11px;
 }
+
+
 
 nav a{
   text-decoration: none;
