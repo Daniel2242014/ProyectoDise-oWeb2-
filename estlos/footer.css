@@ -1,0 +1,15 @@
+footer{
+  background-color: rgb(255, 255, 255);
+}
+
+footer div{
+  padding: 40px 20px 20px 20px;
+}
+
+footer p{
+  line-height: 50px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color:rgb(60, 60, 60);
+  letter-spacing: 0.4px;
+}
