@@ -19,16 +19,47 @@ nav{
   align-items: center;
 }
 
-nav ul{
+nav > ul{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
+.hijos{
+  width: 180px;
+  margin-top: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(37, 37, 37);
+}
+
+.hijos li{
+  padding: 2px;
+  width: 85%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.hijos li a {
+
+}
+
+.initit{
+  width: 80px;
+}
+
 nav li{
+  width: 180px;
   display: inline-block;
-  margin: 12px;
+  margin-right: 20px;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 
 nav a{
