@@ -1,0 +1,35 @@
+*{padding:0px;
+  margin:0px;
+ }
+ header{
+   background-image: url("../img/PeterAndSpiderman.jpg");
+   width:100%;
+   height:100%;
+   background-size:cover;
+ }
+h1{
+  display:block;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  top:42%;
+  left:50%;
+  font-family:"Open Sans";
+  text-transform:uppercase;
+  font-size:140px;
+  letter-spacing:14px;
+  border:solid 3px rgba(255, 255, 255, 0.56);
+  color:rgb(255, 255, 255);
+}
+.papafrita{
+  width:50%;
+}
+.mein{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+.p{
+  display:inline-block;
+  width:90%;margin:auto;
+}
