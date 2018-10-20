@@ -51,10 +51,8 @@ h1{
 
 .main form{
   width: 80%;
-  transform: translate(-50%,-50%);
-  position: relative;
-  top:40%;
-  left: 50%;
+  margin:auto; 
+
   display: flex;
   justify-content: center;
   align-items: center;

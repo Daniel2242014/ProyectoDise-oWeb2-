@@ -1,0 +1,70 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+header{
+  width:100%;
+  height:100%;
+  background-image:url("../img/BG-amigos.gif");
+  background-size:cover;
+  background-position:center;
+}
+header h1{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-transform:uppercase;
+  color:rgb(255, 255, 255);
+  font-size:120px;
+  font-family:"Open sans";
+  letter-spacing:8px;
+  display:block;
+  border:solid 3px rgba(255, 255, 255, 0.54);
+  padding:20px;
+  background-color:rgba(163, 163, 163, 0.33);
+}
+.mein{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color:rgba(47, 47, 47);
+}
+.mein > section{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.mein div{
+  width: 27%;
+  margin: 30px;
+
+}
+
+.mein img {
+  width: 100%;
+}
+
+.mein h3{
+  display: block;
+  width: 90%;
+  color:rgb(255, 255, 255);
+  font-family: "Open sans";
+  letter-spacing: 4px;
+  font-size: 70px;
+
+}
+
+.mein h5{
+  width: 100%;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  font-family: "Open sans";
+  font-size: 28px;
+  padding: 15px 0px 15px 0px;
+  color: rgb(43, 43, 43);
+  text-align: center;
+
+}
