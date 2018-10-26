@@ -1,5 +1,5 @@
 footer{
-  background-color: rgb(255, 255, 255);
+  background-color:rgb(139, 22, 22);
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -15,13 +15,37 @@ footer p{
   line-height: 50px;
   font-family: "Open Sans";
   font-size: 18px;
-  color:rgb(60, 60, 60);
+  color:rgb(255, 255, 255);
   letter-spacing: 0.4px;
 }
+
+
 
 footer img{
   display: block;
   width: 25%;
   margin-right: 20px;
 
+}
+
+@media screen and (max-width:900px ) {
+  footer{
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer div{
+    width: 90%;
+  }
+
+  footer img{
+    width: 60%;
+  }
+}
+
+footer .resaltar{
+  color:rgb(45, 45, 45);
+  text-transform: uppercase;
+  font-family: "Open sans";
+  font-size: 30px;
+  font-weight:bold;
 }

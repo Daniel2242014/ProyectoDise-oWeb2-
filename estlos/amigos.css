@@ -68,3 +68,16 @@ header h1{
   text-align: center;
 
 }
+
+
+@media screen and (max-width:1000px ){
+  .mein div{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:625px ){
+  .mein div{
+    width: 80%;
+  }
+}

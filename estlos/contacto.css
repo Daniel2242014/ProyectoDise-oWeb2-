@@ -51,7 +51,7 @@ h1{
 
 .main form{
   width: 80%;
-  margin:auto; 
+  margin:auto;
 
   display: flex;
   justify-content: center;
@@ -101,4 +101,21 @@ input[type="submit"]:hover{
   transform: scale(1.15,1.15);
   color:rgb(60, 60, 60);
   background: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1000px ){
+  h1{
+    font-size: 110px;
+  }
+}
+
+@media screen and (max-width:800px ){
+  .main  h3{
+    font-size: 50px;
+  }
+
+  h1{
+    font-size: 80px;
+  }
+
 }

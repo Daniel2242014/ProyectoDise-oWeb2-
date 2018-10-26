@@ -124,3 +124,23 @@ th{
 .actor{
   text-align: center;
 }
+
+@media screen and (max-width:900px ){
+  .protagonista > div{
+    width:100%;
+  }
+  .protagonista > div div{
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  header hgroup h1{
+    font-size: 100px;
+  }
+
+   .protagonista > div img{
+     width: 100%;
+   }
+
+
+}

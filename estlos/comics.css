@@ -54,3 +54,25 @@ h4{
   font-size: 21px;
   padding-bottom: 10px;
 }
+
+@media screen and (max-width:1150px ){
+  .main div{
+    width: 45%;
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width:850px ){
+  .main div{
+    width: 70%;
+    margin: 2%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  header h1{
+    font-size: 100px;
+  }
+}

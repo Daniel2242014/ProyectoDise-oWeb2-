@@ -35,8 +35,8 @@ h1{
 }
 
 .main div{
-  width: 29%;
-  margin: 30px;
+  width: 30%;
+  margin: 1%;
   margin-bottom: 50px;
   background:rgb(255, 255, 255);
 }
@@ -85,5 +85,16 @@ td{
 .titulo{
   background: rgb(162, 46, 54);
   color:rgb(255, 255, 255);
+}
 
+@media screen and (max-width:900px ){
+  .main div{
+    width: 42%;
+  }
+}
+
+@media screen and (max-width:800px ){
+  h1{
+    font-size: 100px;
+  }
 }
