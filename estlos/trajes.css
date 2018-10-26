@@ -1,0 +1,59 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+header{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/milesmirandotraje.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 150px;
+  color: rgb(255, 255, 255);
+  font-family: "Open sans";
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: rgba(48, 48, 48, 0.25);
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.63);
+}
+.mein{
+  background:rgb(40, 40, 40);
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.mein div{
+  background:rgb(255, 255, 255);
+  width:28%;
+  margin:30px;
+  height:620px;
+}
+.mein>div>img{
+  width:100%;
+}
+.mein h3{
+  display:block;
+  width: 90%;
+  color:rgb(0, 0, 0);
+  font-family: "Open sans";
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align:center;
+}
+.mein p{
+  display:block;
+  padding:10px;
+  padding-top:25px;
+  font-family:"Open sans";
+  letter-spacing:1px;
+  line-height:25px;
+}
