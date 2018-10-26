@@ -53,3 +53,37 @@ h4{
   text-align: center;
   font-size: 22px;
 }
+
+.tabla{
+  background: url("../img/BG tabla.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 70px;
+}
+table{
+  font-family: "Open sans";
+  font-size: 18px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th{
+  background: rgb(255, 255, 255);
+  color: rgb(55, 55, 55);
+  font-size: 25px;
+  padding: 10px;
+
+}
+
+td{
+  padding: 11px;
+  color:rgb(255, 255, 255);
+  background:rgb(255, 255, 255, 0.1);
+}
+
+.titulo{
+  background: rgb(162, 46, 54);
+  color:rgb(255, 255, 255);
+
+}

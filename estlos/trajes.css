@@ -29,16 +29,17 @@ header h1{
   justify-content:center;
   align-items:flex-start;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .mein div{
   background:rgb(255, 255, 255);
   width:28%;
   margin:30px;
-  height:620px;
+  height:680px;
 }
 .mein>div>img{
   width:100%;
+  padding-top: 10px;
 }
 .mein h3{
   display:block;
